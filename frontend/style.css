@@ -1,0 +1,199 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(175, 241, 241);
+}
+.wrapper{
+    margin-top: 5%;
+    
+
+}
+.wrapper h1{
+    font-family: 'Times New Roman';
+    font-size: 30px;
+    margin-bottom: 15px;
+    padding: 5px;
+    padding-top: -10%;
+    text-align: left;
+    margin-left: 12%;
+
+}
+.team{
+    display: flex;
+    text-align: center;
+    width: auto;
+    justify-content: center;
+}
+.team .team_member{
+    background: #fff;
+    margin: 5px;
+    margin-bottom: 80px;
+    width: 300px;
+    padding: 20px;
+    line-height: 20px;
+    color: black;
+    position: relative;
+}
+.team .team_member h3{
+    color: black;
+    font-size: 16px;
+    margin-top: 12px;
+}
+.team .team_member p.role{
+    color: black;
+    font-size: 10px;
+    text-transform: uppercase;
+    margin-bottom: 25px;   
+}
+
+
+.team .team_member .team_img img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    position: absolute;
+    left: 19%;
+    transform: translateX(-50%);
+    background: #fff;
+       
+}
+
+.team .team_member1{
+    background: #fff;
+    margin: 5px;
+    margin-bottom: 70px;
+    width: 300px;
+    padding: 20px;
+    line-height: 25px;
+    color: black;
+    position: relative;
+    font-size: 20;
+    
+}
+.team .team_member1 h3{
+    color: black;
+    font-size: 16px;
+    margin-top: 2px;
+}
+.team .team_member1 {
+    color: black;
+    font-size: 13px;
+    margin-bottom: 15px;   
+}
+.team .team_member1 .team_img1 img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    position: absolute;
+    left: 20%;
+    transform: translateX(-50%);
+    background: #fff; 
+}
+.div h2{
+    text-align: center;
+    font-family: 'Times New Roman';
+    padding-top: 20px;
+}
+.div p{
+    text-align: center;
+    padding-top: 10px;
+    font-size: small;
+    padding-bottom: 10px;
+}
+ .div{
+    background-color: #fff;
+    height: 500px;
+ }
+
+ section{
+    border: solid 1px rgb(230, 189, 189);
+    height: 300px;
+    width: 350px;
+    margin: auto;
+    background-color: rgb(247, 247, 232);
+ }
+ section h4{
+    color: black;
+    font-size: 12px;
+    margin-top: 1px;
+    margin-bottom: 1px;
+ }
+
+.ro {
+    text-align: left;
+    font-size: 16;
+    font-family: 'Times New Roman';
+    margin-top: 10px;
+   
+}
+ li{
+    list-style-position: inside;
+    list-style-image: url("tick.png");
+    font-size: 15px;
+    margin: 20px;
+    line-height: 2;
+    list-style: none;
+    
+}
+li:before{
+    content: "\2705";
+    border-style: none;
+    
+}
+ .Twitter_11 img{
+    width: 2px;
+    height: 2px;
+    margin-left: 70%;
+    font-size: 40px;
+    
+    
+ }
+ .march p{
+    text-align: right;
+    margin-top: 10pt;
+    margin-bottom: 10pt;
+    font-size: 12;
+ }
+ .march img{
+    height: 20px;
+    width: 20px;
+    margin-right: 100%;
+    margin-top: 10%;
+    margin-block-end: 10px;
+    bottom: 20%;
+ }
+ #container{
+    display: flex;
+    align-items: center;
+    margin-right: 10%;
+   }
+ #container img{
+    width: 10%;
+    height: 10%;
+    margin-left: 20px;
+    margin-right: 10px;
+    margin-top: 8px;
+   
+   
+    
+ }
+#container p{
+    background-color: rgb(42, 166, 238);
+    text-align: center;
+    color: #fff;
+    margin-left: 2%;
+    margin-right: 2%;
+    width: 100%;
+}
+    
+    
+    
+    
+   
+ 
