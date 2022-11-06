@@ -1,199 +1,129 @@
 
 
-*{
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Open+Sans:wght@300&display=swap');
+* {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    list-style: border-box;
 }
-body{
-    font-family: 'Times New Roman', Times, serif;
-    background-color: rgb(175, 241, 241);
+
+.container{
+    background-color: rgb(206, 229, 238);
+    height: 40%;
 }
-.wrapper{
-    margin-top: 5%;
-    
+.sub_container{
+    max-width: 1064px;
+    margin: auto;
+    padding-top: 2.5rem;
+    padding-bottom: 3rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
 
 }
-.wrapper h1{
-    font-family: 'Times New Roman';
-    font-size: 30px;
-    margin-bottom: 15px;
-    padding: 5px;
-    padding-top: -10%;
-    text-align: left;
-    margin-left: 12%;
-
+.sub_container h3{
+    font-size: 2rem;
+    padding-bottom: 1rem;
+    padding-left: 6rem;
+ 
 }
-.team{
+img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+main{
     display: flex;
-    text-align: center;
     width: auto;
+    gap: 1rem;
     justify-content: center;
-}
-.team .team_member{
-    background: #fff;
-    margin: 5px;
-    margin-bottom: 80px;
-    width: 300px;
-    padding: 20px;
-    line-height: 20px;
-    color: black;
-    position: relative;
-}
-.team .team_member h3{
-    color: black;
-    font-size: 16px;
-    margin-top: 12px;
-}
-.team .team_member p.role{
-    color: black;
-    font-size: 10px;
-    text-transform: uppercase;
-    margin-bottom: 25px;   
-}
-
-
-.team .team_member .team_img img{
-    width: 60px;
-    height: 60px;
-    border-radius: 50%;
-    position: absolute;
-    left: 19%;
-    transform: translateX(-50%);
-    background: #fff;
-       
-}
-
-.team .team_member1{
-    background: #fff;
-    margin: 5px;
-    margin-bottom: 70px;
-    width: 300px;
-    padding: 20px;
-    line-height: 25px;
-    color: black;
-    position: relative;
-    font-size: 20;
+    
     
 }
-.team .team_member1 h3{
-    color: black;
-    font-size: 16px;
-    margin-top: 2px;
-}
-.team .team_member1 {
-    color: black;
-    font-size: 13px;
-    margin-bottom: 15px;   
-}
-.team .team_member1 .team_img1 img{
-    width: 60px;
-    height: 60px;
-    border-radius: 50%;
-    position: absolute;
-    left: 20%;
-    transform: translateX(-50%);
-    background: #fff; 
-}
-.div h2{
-    text-align: center;
-    font-family: 'Times New Roman';
-    padding-top: 20px;
-}
-.div p{
-    text-align: center;
-    padding-top: 10px;
-    font-size: small;
-    padding-bottom: 10px;
-}
- .div{
+.box_one{
+    border: 40x solid;
+    padding: 1rem;
+    height: 100%;
+    border-radius: 6px;
     background-color: #fff;
-    height: 500px;
- }
-
- section{
+    width: 250px;
+   
+}
+.sara_box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.box_one p{
+    color: rgb(116, 115, 115);
+}
+.sara_may{
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+}
+.sara_box i{
+    color: #1da1f2;
+    font-size: 25px;
+}
+.comment{
+    display: flex;
+    justify-content: space-between;
+}
+.comment i{
+    color: red;
+    font-size: 24px;
+}
+.comment p{ 
+    display: flex;
+    align-items: center;
+    color: rgb(116, 115, 115);
+}  
+.price {
+    max-width: 50%;
+    text-align: center;
+    padding-top: 1.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 30%;
+    padding-right: 30%;
+    display: flex;
+}
+.box_price{
     border: solid 1px rgb(230, 189, 189);
-    height: 300px;
+    height: 330px;
     width: 350px;
     margin: auto;
     background-color: rgb(247, 247, 232);
- }
- section h4{
-    color: black;
-    font-size: 12px;
-    margin-top: 1px;
-    margin-bottom: 1px;
- }
-
-.ro {
-    text-align: left;
-    font-size: 16;
-    font-family: 'Times New Roman';
-    margin-top: 10px;
-   
+    padding-top: 1rem;
 }
- li{
+li{
     list-style-position: inside;
     list-style-image: url("tick.png");
     font-size: 15px;
     margin: 20px;
     line-height: 2;
     list-style: none;
-    
 }
 li:before{
     content: "\2705";
     border-style: none;
     
 }
- .Twitter_11 img{
-    width: 2px;
-    height: 2px;
-    margin-left: 70%;
-    font-size: 40px;
-    
-    
- }
- .march p{
-    text-align: right;
-    margin-top: 10pt;
-    margin-bottom: 10pt;
-    font-size: 12;
- }
- .march img{
-    height: 20px;
-    width: 20px;
-    margin-right: 100%;
-    margin-top: 10%;
-    margin-block-end: 10px;
-    bottom: 20%;
- }
- #container{
-    display: flex;
-    align-items: center;
-    margin-right: 10%;
-   }
- #container img{
-    width: 10%;
-    height: 10%;
-    margin-left: 20px;
-    margin-right: 10px;
-    margin-top: 8px;
-   
-   
-    
- }
-#container p{
-    background-color: rgb(42, 166, 238);
-    text-align: center;
+.box_price i{
     color: #fff;
-    margin-left: 2%;
-    margin-right: 2%;
-    width: 100%;
+    font-size: 20px;
+    padding-top: 5px;
 }
-    
-    
-    
-    
+.box_price p{
+    text-align: center;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    background-color: #1da1f2;
+    padding-bottom: 0.5rem;
+    margin-top: 10px;
    
- 
+    color: #fff;
+}
+.box_price h1, h4{
+    margin-left: 10px;
+}
